@@ -9,7 +9,7 @@ What is Django?
    Take cares of difficult stuff so that we can concentrate on building web apps.
 4.Provides many built in features.
 
-# ===========================================================================
+# ---
 
 MVT
 
@@ -19,7 +19,7 @@ Model - data we want to present, usually data from a database
 View - A request handler that returns the relevant template and content - based on the request from the user.
 Template - A text file (like an HTML file) containing the layout of the web page, with logic on how to display the data.
 
-# ===========================================================================
+# ---
 
 Set up the Environment
 Download and install python
@@ -32,7 +32,7 @@ Install Django
 	python manage.py runserver
 	python manage.py migrate
 	python manage.py makemigrations
-# ===========================================================================
+# ---
 
 Lets Understand
 .Project structure
@@ -41,5 +41,5 @@ Lets Understand
 .Templates				HTML Templates
 .Models-CRUD OPERATIONS
 
-# ===========================================================================
+# ---
 
