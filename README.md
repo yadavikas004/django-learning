@@ -26,7 +26,7 @@ Download and install python
 Check you pip is working
 Install Django
 	pip install Django
-	django-admin -version
+	django-admin --version
 	django-admin startproject <projectname>
 	python manage.py startapp login
 	python manage.py runserver
