@@ -9,9 +9,7 @@ What is Django?
    Take cares of difficult stuff so that we can concentrate on building web apps.
 4.Provides many built in features.
 
-# 
-
-MVT
+# MVT #
 
 Django follows MVT design patterns:
 
@@ -32,6 +30,7 @@ Install Django
 	python manage.py runserver
 	python manage.py migrate
 	python manage.py makemigrations
+	python manage.py startapp emp
 
 # 
 
@@ -42,4 +41,23 @@ Lets Understand
 .Templates				HTML Templates
 .Models-CRUD OPERATIONS
 
-# 
+# Let build employee management
+
+Add Employee
+View Employee
+Delete Employee
+Update Employee
+
+#
+
+from website.models import Student
+student=Student(name="Durgesh",college="ABC",age=22,is_active=True)
+student.name
+student.college
+student.age
+student.save()
+x=Student.objects.get(id=1)
+x.name
+all=Student.objects.all()
+for i in all:
+	print(i.name)
