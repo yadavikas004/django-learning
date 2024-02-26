@@ -51,13 +51,13 @@ def about(request):
 #     else:
 #         return render(request,"contact.html")    
 
-def contact(request):
-    if request.method=="POST":
-        context={}
-        form = ContactForm(request.POST)
-        if form.is_valid():
-            subject = form.cleaned_data["subject"]
-            from_email = form.cleaned
+# def contact(request):
+#     if request.method=="POST":
+#         context={}
+#         form = ContactForm(request.POST)
+#         if form.is_valid():
+#             subject = form.cleaned_data["subject"]
+#             from_email = form.cleaned
 
 def services(request):
     # return HttpResponse("<h1>This is services page</h1>")
