@@ -31,6 +31,7 @@ Install Django
 	python manage.py migrate
 	python manage.py makemigrations
 	python manage.py startapp emp
+	python manage.py createsuperuser
 
 # 
 
